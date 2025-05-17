@@ -5,7 +5,83 @@ body {
     justify-content: center;
     padding: 50px;
 }
-  
+
+
+/* ...existing code... */
+
+.auth-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+/* ...existing code... */
+
+.auth-container {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 30px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.09);
+    background: #fff;
+}
+
+.auth-form {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+}
+
+.auth-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b2ebf2;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.auth-form input:focus {
+    border: 1.5px solid #00bcd4;
+}
+
+.auth-form button {
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.auth-form button:hover {
+    background: #008ba3;
+}
+
+.auth-link {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.auth-link a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+.auth-message {
+    min-height: 20px;
+    color: #d32f2f;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
 .container {
     background: #fff;
     padding: 20px 30px;
@@ -50,4 +126,3 @@ body {
     text-decoration: line-through;
     color: #888;
 }
-  
